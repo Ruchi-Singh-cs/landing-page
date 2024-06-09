@@ -1,3 +1,4 @@
+#html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,3 +68,86 @@
 </body>
 </html>
 
+
+#css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0 0 1rem;
+}
+
+.hero p {
+    margin: 0 0 2rem;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.feature {
+    margin-bottom: 1.5rem;
+}
+
+.pricing-plan {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-plan h3 {
+    margin-top: 0;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
